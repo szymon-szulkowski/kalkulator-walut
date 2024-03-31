@@ -3,4 +3,4 @@
 ### https://szymon-szulkowski.github.io/kalkulator-walut/
 The following YouCode modules have been used:
 - Module 5
-![HOMEPAGE](/KALKULATOR.png)
+![HOMEPAGE](/kalkulatorImage.png)
