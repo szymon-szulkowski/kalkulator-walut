@@ -1,6 +1,5 @@
 html {
     box-sizing: border-box;
-
 }
 
 *,
@@ -11,10 +10,16 @@ html {
 
 .strona {
     background-color: #d7d7d79e;
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/23/15/23/cosmos-1853491_1280.jpg");
+    background-position: inherit;
+    background-repeat: interit;
+    background-position: inherit;
+    max-width: 2500px;
+
 }
 
 .header {
-    color: black;
+    color: rgb(255, 255, 255);
     max-width: 1300px;
     margin-left: 250px;
     padding: 40px;
