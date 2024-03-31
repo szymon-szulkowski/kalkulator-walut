@@ -1,14 +1,18 @@
-let formElement = document.querySelector(".js-form");
+
 let selectElement = document.querySelector(".js-select");
 let kursElement = document.querySelector(".js-kurs");
 let wartoscElement = document.querySelector(".js-wartosc")
 let wynikElement = document.querySelector(".js-wynik");
 
-let kursEuro = 4.6421;
-let kursUsd = 4.3447;
-let kursFunt = 5.3807;
-let kursPeso = 0.2536;
-let kursSzyling = 0.0017;
+const kursEuro = 4.6421;
+const kursUsd = 4.3447;
+const kursFunt = 5.3807;
+const kursPeso = 0.2536;
+const kursSzyling = 0.0017;
+
+const init = () => {
+    const formElement = document.querySelector(".js-form");
+}
 
 formElement.addEventListener("input", () => {
     if (selectElement.value === "euro") {
